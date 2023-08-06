@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+*{
+
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/* #4b1d26 (Base Color) - This is the main color you provided.
+
+#6d3a4f - A slightly lighter shade of the base color.
+#9f7382 - A more muted, desaturated version of the 
+#333333 - A darker gray for added depth.
+#808080 - A mid-tone gray.
+#cccccc - A light gray. */
+
+
+header{
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+    width : 100%;
+    align-items: center;
+    
+}
+
+nav{
+    text-decoration: none;
+    padding-right: 25px;
+    
+}
+
+nav a{
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    color: #7d5163;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: #520e2a;
+}
+
+nav a:active{
+    font-size: 23px;
+    color: #651235;
+}
+
+
+.Logo{
+    color: #702d49;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 030px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* Main section waaa hmd */
+
+main{
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+    background: url("images/bg3.jpg") no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.txt{
+    padding-left: 40px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main h2{
+    font-size: 30px;
+    color: #cccccc;
+
+    font-weight: 500;
+    padding-left: 45px;
+}
+
+main h2 span{
+    font-size: 35px;
+    color: #efecec;
+    font-weight: bold;
+    text-shadow: #cccccc;
+}
+
+main h1{
+    color: #90365b;
+    padding-top: 15px;
+    font-size: 45px;
+    font-weight: 500;
+    padding-left: 51px;
+    word-break: break-all;
+}
+
+main h3{
+    color: #cccccc;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 45px;
+}
+
+
+.btn{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: 1000;
+    background: #702d49;
+    color: #cccccc;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgb(176, 158, 155);
+    position:relative;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.btn:hover{
+    color: #702d49;
+    background-color: #cccccc;
+    scale: 1.1;
+    box-shadow:inset 0 -0.6em 0 -0.35em #ffff;
+
+}
+
+.btn:active{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.ico{
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.ico a{
+    color: #efecec;
+    padding-right: 20px;
+}
+
+.ico a:hover{
+    color: #cccccc;
+}
+
+/* Services waaa hmdan  */
+
+.services{
+    background-color: #bdb4b4;
+    padding-bottom: 40px;
+}
+.title{
+    color: #651235;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.cards{ 
+    padding-top: 30px;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1{
+    background-color: #efecec;
+    border-radius: 25px;
+    padding-top: 10px;
+    width :21.25em;
+    margin-right: 20px;
+    box-shadow:0px 5px 25px #827d7d;
+    padding: 10px;
+    margin:25px;
+    transition: 1s ease;
+
+}
+
+.card1 a{
+    color: #651235;
+    text-align: center;
+
+}
+
+.card1:hover{
+    animation: infinite;
+    transition:1s ease-out;
+    scale:1.1;
+}
+
+
+.stil{
+    padding-top: 0px;
+    text-align: center;
+    color: #a4134f;
+}
+
+.ico1{
+    margin: 10px 0;
+    font-size: 8em;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+  }
+
+.card1 p{
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* projects section  */
+.projects{ 
+    background-color: #651235;
+    padding-bottom: 40px;
+}
+
+
+#title{
+    color: #cccccc;
+}
+
+
+#card1{
+    background-color:#efecec;
+    border: 1px solid #efecec;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 14em;
+    box-shadow: none;
+    width:23em ;
+    margin: 30px;
+    transition: 0.5s ease;
+    padding :0px
+}
+
+
+
+
+#img{
+    width: 100%;
+}
+
+#img:hover{
+    opacity: 0.8;
+}
+
+
+#card1 h2{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cnt{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+
+.cnt{
+    color: #838181;
+}
+
+.href{
+    margin-top: 10px;
+}
+
+.href:hover{
+    color: #ce6690;
+}
+
+
+
+/* Contact Us */
+.title{
+    margin-bottom: 20px;}
+
+
+.contact{
+    background-color: #bcbaba;
+    padding-bottom: 10px;
+
+}
+
+.contactdiv{
+    border-radius: 25px;
+    padding-top: 10px;
+    width :40em;
+    margin-right: 20px;
+    padding: 10px;
+    margin:25px;
+    padding-bottom: 30px;
+    display: flex;
+    flex:1;
+    flex-direction: row-reverse; /* Reverse the order of flex items */
+
+}
+
+.us{
+
+    position: absolute;
+    right:20px;
+    width: 33em;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 14em;
+    box-shadow: none;
+    padding :0px
+
+}
+
+.ico2{
+    font-size: 350px;
+    width: 100%;
+    height: 100%;
+    color: #651235;
+}
+/* forum */
+
+.forum{
+
+    border: 1px solid #520e2a;
+    border-radius: 5px;
+    box-shadow: none;
+    max-width: 100%; 
+    margin: 30px auto; 
+
+    transition: 0.5s ease;
+    padding :0px;
+    text-align: center;
+}
+
+.forum label{
+    font-weight:bolder;
+
+    padding-top: 20px;
+    font-size: 30px;
+    color: #651235;
+}
+.forum input{
+    padding-top: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #702d49;
+    padding-left: 20px;
+}
+.forum textarea{
+    resize: vertical;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #702d49;
+    border-radius: 4px;
+    
+}
+
+textarea::placeholder, input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    color:#8f556d;
+}
+
+.w{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    border: solid 2px #3F1651;
+    width: 180px;
+    background-color: #520e2a;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    margin-bottom:0px;
+}
+.w:hover{
+    background-color: #85415d;
+    color: #efecec;
+}
+.w:active{
+    scale:1.2
+}
+
+
+
+
+/* footer */
+.footer{
+    background-color: #520e2a;
+    padding: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    flex:1;
+    color: #efecec;
+}
+
+#ico1{
+    padding: 0 12px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.footer span{
+    color:#827d7d;
+}
+/* Your existing CSS styles */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust header styles for smaller screens */
+    body{
+        overflow-x: hidden;
+    }
+    
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Logo {
+        padding-left: 20px;
+    }
+    nav {
+        padding-right: 0;
+        margin-top: 10px;
+    }
+
+    /* Adjust main section styles for smaller screens */
+    main {
+
+        padding-top: 80px;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    main h2 {
+        font-size: 24px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    main h2 span{
+        font-size: 28px;
+        
+    }
+    main h1 {
+        padding-right: auto-;
+        text-align: center;
+        font-size: 36px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    main h3 {
+        font-size: 24px;
+        padding-left: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn {
+        margin-top: 20px;
+        font-size: 1.2em;
+        width: 50%;
+        display: block;
+        margin-top:10px;
+        padding: 10px;
+        margin:  auto;
+    
+    }
+    .ico {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+      
+
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    /* Adjust services section styles for smaller screens */
+    .title {
+        font-size: 28px;
+    }
+    .card1 {
+        width: 60%;
+        margin: 10px;
+    }
+
+    /* Adjust projects section styles for smaller screens */
+    #card1 {
+        width: 60%;
+        margin: 10px;
+    }
+
+    /* Adjust contact section styles for smaller screens */
+    .contactdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        width: 100%; 
+    }
+    .us {
+        position: static;
+        width: 100%;
+        padding: 20px;
+
+    }
+    .contact .ico2 {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    .forum {
+        display: flex;
+        margin: 0 auto;
+        position: 0;
+        margin-left: 30px;
+        justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+      
+        width: 80%;
+    }
+    .forum input,
+    .forum textarea {
+        width: 90%;
+    }
+
+    /* Adjust footer styles for smaller screens */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .footer h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer span {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    html, body {
+        overflow-x: hidden;
+        }
+      
+
+    
+}
+@media (max-width: 600px) {
+    html, body {
+        overflow-x: hidden;
+        }
+    }        
