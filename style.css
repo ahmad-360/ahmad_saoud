@@ -110,7 +110,7 @@ main h1{
     font-size: 45px;
     font-weight: 500;
     padding-left: 51px;
-    word-break: break-all;
+    white-space: pre-line;
 }
 
 main h3{
@@ -454,6 +454,7 @@ textarea::placeholder, input::placeholder{
     body{
         overflow-x: hidden;
     }
+
     
 
     header {
@@ -470,53 +471,53 @@ textarea::placeholder, input::placeholder{
 
     /* Adjust main section styles for smaller screens */
     main {
-
-        padding-top: 80px;
         justify-content: center;
         align-items: center;
-
-        
     }
     main h2 {
         font-size: 24px;
         padding-right: 20px;
+        padding-left: 20px;
         text-align: center;
     }
     main h2 span{
         font-size: 28px;
+        padding-right: 20px;
         
     }
     main h1 {
-        padding-right: auto-;
-        text-align: center;
+        margin-top:20px;
+        padding-right: 20px;
+        padding-left: 20px;
         font-size: 36px;
-        padding-left: 30px;
-        justify-content: center;
+        text-align: center;
+
+    }
+    .fdv{
+        white-space: pre-line;
     }
     main h3 {
+        padding-top: 20px;
         font-size: 24px;
+        padding-right: 20px;
         padding-left: 20px;
         text-align: center;
         padding-bottom: 20px;
     }
     .btn {
-        margin-top: 20px;
         font-size: 1.2em;
         width: 50%;
         display: block;
-        margin-top:10px;
+        margin-top: 20px;
         padding: 10px;
         margin:  auto;
     
     }
     .ico {
-        padding-top: 20px;
-        display: flex;
-        justify-content: center; /* Horizontal centering */
-        align-items: center; /* Vertical centering */
-      
-
-        margin-top: 15px;
+        
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 35px;
         font-size: 30px;
     }
 
@@ -526,7 +527,7 @@ textarea::placeholder, input::placeholder{
     }
     .card1 {
         width: 60%;
-        margin: 10px;
+        margin: 20px;
     }
 
     /* Adjust projects section styles for smaller screens */
@@ -577,6 +578,74 @@ textarea::placeholder, input::placeholder{
         align-items: center;
         padding: 20px;
     }
+    .txt{
+        padding: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+    .topnav {
+        overflow: hidden;
+        background-color: #cccccc;
+        position: fixed;
+        z-index: 9999;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: #520e2a;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: #a3a3a3;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #702d49;
+        color:#520e2a ;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+
+    /* Add your existing styles here */
+
+/* Mobile-specific styles */
+    .menu {
+      display: none;
+      list-style: none;
+      background-color: #ffffff;
+      width: 100%;
+      position: absolute;
+      top: 60px; /* Adjust this value based on your design */
+      left: 0;
+      z-index: 1;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+  
+  
     .footer h1 {
         text-align: center;
         margin-bottom: 20px;
@@ -598,3 +667,19 @@ textarea::placeholder, input::placeholder{
         overflow-x: hidden;
         }
     }        
+
+
+
+@media (min-width: 768px) {
+    .icon{
+        display: none;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1099px) {
+    .ico2 {
+        display: none;
+
+    }
+
+}
