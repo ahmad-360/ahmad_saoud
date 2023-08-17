@@ -6,31 +6,36 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ba6a330af8.js" crossorigin="anonymous"></script>
+    <title> Portfolio - Ahmad Saoud </title>
     
 </head>
 <body>
-    <header>
+    <header class="topnav">
         <a href="" class="Logo" > SAOUD </a>
         
-        <nav> 
-            <a href="" class="Se"> Projects </a>
-                <a href="#services"> Services </a>
-                <a href="#contact"> Contact </a>
+        <nav id="myLinks"> 
+            <a href="#projects"> Projects </a>
+            <a href="#services"> Services </a>
+            <a href="#contact"> Contact </a>
 
         </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
     
     </header>
     <main>
         <div class="txt">
             <h2> Hello i'm <span>Ahmad Saoud</span></h2>
-            <h1>  Python & Front End Developper
+            <h1>  Python <span class="fdv">& Front End Developper</span> 
             </h1>
             <h3>I build Apps and Websites For You.</h3>
-            <a href="" class="btn"> Hire Me </a>
+            <a href="#contact" class="btn"> Hire Me </a>
             <div class="ico">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.facebook.com/awdiii.yalah"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/ahmad36712153"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/direct/inbox/"><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-whatsapp"></i></a>
             </div>
 
@@ -78,7 +83,7 @@
 
                 <div class="cnt">
                     <h1 class="tlt"> Spacepy </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/Spacepy"> More Details </a>
                 </div>
 
 
@@ -92,7 +97,7 @@
     
                 <div class="cnt">
                     <h1 class="tlt"> GooPy </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/Browserpy"> More Details </a>
                 </div>
     
     
@@ -105,7 +110,7 @@
     
                 <div class="cnt">
                     <h1 class="tlt"> Notepy </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/Notepadpy"> More Details </a>
                 </div>
     
     
@@ -118,7 +123,7 @@
     
                 <div class="cnt">
                     <h1 class="tlt"> Genpass </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/Genpass"> More Details </a>
                 </div>
     
     
@@ -131,7 +136,7 @@
     
                 <div class="cnt">
                     <h1 class="tlt"> QrPy </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/qrgenerator"> More Details </a>
                 </div>
     
     
@@ -144,7 +149,7 @@
     
                 <div class="cnt">
                     <h1 class="tlt"> E-py </h1>
-                    <a class="href" href=""> More Details </a>
+                    <a class="href" target="_blank" href="https://github.com/ahmad-360/e-py"> More Details </a>
                 </div>
     
     
@@ -221,6 +226,18 @@
         <h3> Birthday Edition @ 5/8/2023 </h3>
 
 </section>
+<script> 
+function myFunction() {
+  var y = document.getElementById("myLinks");
+  if (y.style.display === "block") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+  }
+}
+
+
+</script>
 
 <script>
     (function () {
